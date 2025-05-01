@@ -10,7 +10,7 @@ def hash_password(password):
 
 def main():
     stored_login = {
-        "amna@gmail.com": hash_password("amna123"),
+        "awais@gmail.com": hash_password("awais123"),
         "user@example.com": hash_password("password123"),
         "admin@site.com": hash_password("admin456")
     }
